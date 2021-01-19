@@ -97,7 +97,7 @@ class NarrowSelfAttention(nn.Module):
         self.V = nn.Linear(chunk, chunk, bias=False)
         self.union = nn.Linear(n_heads * chunk, emb_dim)
 
-    def foward(self, x: torch.Tensor) -> torch.Tensor:
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
         n_h = self.n_heads
         bz, t, d = x.shape
         chunk = d // n_h
