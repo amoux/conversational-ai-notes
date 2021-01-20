@@ -1,5 +1,14 @@
 # Common NLP Metrics & Applications
 
+> TODO: Finish adding the description and its application to the following:
+
+- RMSE
+- MAPE
+- BLEU
+- METEOR
+- ROUGUE
+- Perplexity
+
 | Metric        | Description                                                                                                                                                                                                                  | Applications                                                                                                                                                                             |  |  |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--|--|
 | **Accuracy**  | Used when the output variable is categorical or discrete. It denotes the fraction of times the model makes correct predictions as compared to the total predictions it makes.                                                | Mainly used in classification tasks, such as `sentiment classification` (multiclass),  `natural language inference` (binary), `paraphrase detection` (binary), etc.                      |  |  |
